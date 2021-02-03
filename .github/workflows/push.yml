@@ -28,7 +28,7 @@ jobs:
           clean:  true
           lfs:  true
           submodules:  true
-          depth: ''
+          fetch-depth: ''
 
 
       # Runs a single command using the runners shell
