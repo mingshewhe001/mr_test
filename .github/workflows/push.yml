@@ -25,7 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         with:
-          ref: "ae40cf6652944d73e79a8044a28fa32a95d76ad2"
+          ref: master
           clean:  true
           lfs:  true
           submodules:  true
